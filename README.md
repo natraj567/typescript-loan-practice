@@ -1,42 +1,59 @@
 # TypeScript Loan Practice
 
-## About
+## About the Project
 
-A TypeScript learning project using a fictional loan dataset to practice coding fundamentals and problem-solving.
+This repository contains my TypeScript practice programs based on a loan management system. It helps me strengthen my programming fundamentals and prepare for QA Automation Engineer interviews.
 
-## Topics Covered
-
-- TypeScript types and function signatures
-- Normal functions and arrow functions
-- Callback functions
-- Array methods: find(), filter(), and forEach()
-- Conditional statements and loops
-- Loan calculations and city-wise reports
-- Handling undefined values
-
-## Technologies
+## Technologies Used
 
 - TypeScript
 - Node.js
 - tsx
 - Git and GitHub
 
-## Setup
+## Topics Covered
 
-Install dependencies:
+- Variables, data types, and functions
+- Arrays and objects
+- Custom types and type annotations
+- Normal functions and arrow functions
+- Callback functions
+- Array methods: `find()`, `filter()`, and `forEach()`
+- Conditional statements and loops
+- Loan filtering and business logic
+- Loan reports, processing fees, and status counts
+
+## Project Structure
+
+- `loanData.ts` — sample loan data and the `Loan` type
+- `find*.ts` — programs that search for loans
+- `get*.ts` — programs that filter and retrieve loan data
+- `print*.ts` — programs that print loan reports
+- `notes/` — TypeScript learning notes
+
+## How to Run
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-Run a practice file:
+### 2. Run a practice program
 
 ```bash
-npx tsx Q1_findOverdue.ts
+npx tsx findLoanById.ts
 ```
 
-Replace the filename with the actual name of the file you want to run.
+Replace `findLoanById.ts` with the name of another program to run it.
 
-## Learning Goal
+## Learning Goals
 
-Build a strong TypeScript foundation for QA automation and Playwright testing.
+- Improve TypeScript coding skills.
+- Understand functions, callbacks, and array methods.
+- Practice solving programming problems using realistic loan data.
+- Build a strong foundation for Playwright automation with TypeScript.
+
+## Repository
+
+[View the project on GitHub](https://github.com/natraj567/typescript-loan-practice)
